@@ -2,7 +2,7 @@
 
 Ejemplo de uso:
 
-```
+```javascript
     const initialForm = {
         name: '',
         age: 0,
