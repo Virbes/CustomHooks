@@ -13,3 +13,16 @@ Ejemplo de uso:
 
     const { name, age, email } = formValues;
 ```
+
+```jsx
+ <Input
+    required
+    type="text"
+    name="name"
+    placeholder="First Name"
+    invalidFeedback="Please enter your first name"
+    value={formData.firstname}
+    onChange={handleInputChange}
+    autoFocus={true}
+/>
+```
